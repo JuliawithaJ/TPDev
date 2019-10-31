@@ -1,0 +1,19 @@
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    background-color: seashell;
+    padding: 20px 30px;
+    margin: 25px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card .button{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}

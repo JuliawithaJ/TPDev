@@ -1,0 +1,18 @@
+@import url('components/header.css');
+@import url('components/card.css');
+@import url('components/button.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    position: absolute;
+    top: 48vh;
+    padding-left: 250px;
+    font-family: 'Poppins', sans-serif;
+    color: #fefefe;
+    width: 300px;
+}
