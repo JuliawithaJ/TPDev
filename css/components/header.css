@@ -14,7 +14,7 @@
     padding: 10px 25px;
     font-family: 'Open Sans', sans-serif;
 }
-header{
+.header{
     height: 100vh;
     background-image: url('https://res.cloudinary.com/dsd5xgbdi/image/upload/v1571040439/pinguin2_m8b7ml.jpg');
     background-position: center;

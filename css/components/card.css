@@ -1,10 +1,10 @@
-.main-page{
+.cards{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card{
-    width: 500px;
+    width: 420px;
     background-color: seashell;
     padding: 20px 30px;
     margin: 25px 50px;
@@ -16,4 +16,43 @@
     width: 50%;
     text-align: center;
     margin: auto;
+}
+.destination-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+.dest-card h3{
+    position: absolute;
+    z-index: 99999;
+    font-size: 2em;
+    bottom: 0px;
+    left: 5px;
+}
+.dest-card{
+    position: relative;
+}
+.dest-card img{
+    height: 450px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .1s ease-in-out;
+}
+.dest-card img:hover{
+    border-radius: 5px;
+    filter: none;
+    -webkit-filter: grayscale(0.3);
+    -webkit-transform;: scale(1.01);
+}
+.grow{
+    transition: all .2s ease-in-out;
+    color: #1c1c1e;
+}
+.grow:hover{
+    transform: scale(1.05);
+    z-index:999;
+    color: white;
+    cursor: pointer;
 }

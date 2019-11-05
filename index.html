@@ -1,35 +1,78 @@
 <html>
-    <?php include 'header.php'; ?>
+    <head>
+		<meta charset="utf-8">
+		<title>TP Dev</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="css/fontawesome/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Poppins:500&display=swap" rel="stylesheet">
+     
+		<!-- <meta name="description" content="Slack mais en mieux.">
+	    <meta property="title" content="WAB | Slack. En mieux." />
+	    
+	    <meta property="og:title" content="WAB | Slack. En mieux." />
+	    <meta property="og:type" content="website" />
+	    <meta property="og:url" content="https://juliawithaj.github.io/Slacktemplate/" />
+	    <meta property="og:image" content="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_thumb,w_200,g_face/v1571148592/Slack-logo_fnh2nh.png"/>
+	    <meta property="og:site_name" content="Slack" /> -->
+	</head>
+	<body>
+        <header class="header">
+            <div class="header-menu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">LOGO</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="#">Fauna</a></li>
+                        <li><a href="#">Prices</a></li>
+                    </ul>
+                </div>
+                <div class="picto">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-shopping-basket"><br>panier</i></a></li>
+                        <li><a href="#"><i class="fas fa-search"><br>Rechercher</i></a></li>
+                    </ul>
+                </div>
+            </div>    
+        </header>
         <div class="title">
             <h1>Holidays in Antarctica</h1>
             <a class="button" href="#">Rechercher</a>
         </div>
         <div class="main-page">
-            <div class="card">
-                <img src="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_350,h_300/v1571041817/robert-katzki-jiCmX3fUjZk-unsplash_shbtmw.jpg">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus hic quos unde repellendus autem voluptate quae nostrum qui, corrupti, quibusdam consectetur veritatis dolore nam porro molestias, explicabo iure aut.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eaque dolores consequuntur ratione dicta voluptas voluptatum? Unde, iste! Natus placeat minima consequatur quae fugiat dolorum doloribus tenetur perspiciatis sequi facilis!
-                </p>
-                <a href="#" class="button">Destinations</a>
-            </div>
-            <div class="card">
-                <img src="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_350,h_300/v1570004676/emperor-penguin_wssyqm.jpg">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus hic quos unde repellendus autem voluptate quae nostrum qui, corrupti, quibusdam consectetur veritatis dolore nam porro molestias, explicabo iure aut.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eaque dolores consequuntur ratione dicta voluptas voluptatum? Unde, iste! Natus placeat minima consequatur quae fugiat dolorum doloribus tenetur perspiciatis sequi facilis!
-                </p>
-                <a href="#" class="button">Fauna</a>
-            </div>
-            <div class="card">
-                <img src="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_350,h_300/v1571041819/matthieu-joannon-AoVf2MqHHGQ-unsplash_yiue2u.jpg">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus hic quos unde repellendus autem voluptate quae nostrum qui, corrupti, quibusdam consectetur veritatis dolore nam porro molestias, explicabo iure aut.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eaque dolores consequuntur ratione dicta voluptas voluptatum? Unde, iste! Natus placeat minima consequatur quae fugiat dolorum doloribus tenetur perspiciatis sequi facilis!
-                </p>
-                <a href="#" class="button">Prix</a>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_350,h_300/v1571041817/robert-katzki-jiCmX3fUjZk-unsplash_shbtmw.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus hic quos unde repellendus autem voluptate quae nostrum qui, corrupti, quibusdam consectetur veritatis dolore nam porro molestias, explicabo iure aut.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eaque dolores consequuntur ratione dicta voluptas voluptatum? Unde, iste! Natus placeat minima consequatur quae fugiat dolorum doloribus tenetur perspiciatis sequi facilis!
+                    </p>
+                    <a href="destinations.html" class="button">Destinations</a>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_350,h_300/v1570004676/emperor-penguin_wssyqm.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus hic quos unde repellendus autem voluptate quae nostrum qui, corrupti, quibusdam consectetur veritatis dolore nam porro molestias, explicabo iure aut.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eaque dolores consequuntur ratione dicta voluptas voluptatum? Unde, iste! Natus placeat minima consequatur quae fugiat dolorum doloribus tenetur perspiciatis sequi facilis!
+                    </p>
+                    <a href="#" class="button">Fauna</a>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_350,h_300/v1571041819/matthieu-joannon-AoVf2MqHHGQ-unsplash_yiue2u.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus hic quos unde repellendus autem voluptate quae nostrum qui, corrupti, quibusdam consectetur veritatis dolore nam porro molestias, explicabo iure aut.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eaque dolores consequuntur ratione dicta voluptas voluptatum? Unde, iste! Natus placeat minima consequatur quae fugiat dolorum doloribus tenetur perspiciatis sequi facilis!
+                    </p>
+                    <a href="#" class="button">Prix</a>
+                </div>
             </div>
         </div>
+        <footer>
+            <div class="links">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </footer>
         <!-- <div class="tailles">
             <p class="choose">taille S</p>
             

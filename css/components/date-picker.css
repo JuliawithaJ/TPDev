@@ -1,0 +1,12 @@
+
+.date-picker{
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.date-picker label{
+    padding-bottom: 10px;
+    color: #1c1c1e;
+}
