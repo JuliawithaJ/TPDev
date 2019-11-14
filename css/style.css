@@ -3,6 +3,10 @@
 @import url('components/button.css');
 @import url('components/date-picker.css');
 @import url('components/destination.css');
+@import url('components/footer.css');
+@import url('components/listing.css');
+@import url('components/produit.css');
+@import url('components/confirmation.css');
 *{
     box-sizing: border-box;
 }

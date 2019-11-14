@@ -44,15 +44,20 @@
     border-radius: 5px;
     filter: none;
     -webkit-filter: grayscale(0.3);
-    -webkit-transform;: scale(1.01);
+    -webkit-transform: scale(1.01);
 }
 .grow{
     transition: all .2s ease-in-out;
-    color: #1c1c1e;
 }
 .grow:hover{
     transform: scale(1.05);
     z-index:999;
-    color: white;
     cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: #1c1c1e;
+}
+.link:hover{
+    color: white;
 }

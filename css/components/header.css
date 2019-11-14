@@ -20,7 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.header-menu{
+.header-menu, .header-destination .header-menu{
     background-color: rgba(255,255,255, 0.5);
 }
 .picto ul li i{
@@ -29,4 +29,8 @@
 .header-menu li a{
     color: #1c1c1e;
     text-decoration: none;
+}
+
+.header-produit{
+    box-shadow:  0 -17px 60px;
 }

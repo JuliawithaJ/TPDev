@@ -1,0 +1,24 @@
+#listing{
+    padding: 10px 25px;
+}
+#listing .card-1 img{
+    width: 307px;
+}
+#listing .card-1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#listing .card-1{
+    border-radius: 7px;
+    padding: 10px 20px;
+    box-shadow: 0 5px 20px;
+}
+#listing .button{
+    text-align: center;
+}
+.grid{
+    display:flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background-color: #1c1c1e;
+    color: white;
+    margin-top: 40px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: grey;
+}

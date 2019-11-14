@@ -1,0 +1,12 @@
+#produit{
+    text-align:center;
+}
+.produit-presentation{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.produit-presentation img{
+    width: 50%;
+}
