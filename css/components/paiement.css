@@ -1,0 +1,13 @@
+.paiement{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 400px;
+}
+.paiement form label{
+    padding-right:40px;
+}
+.paiement form div{
+    display:flex;
+    flex-direction: column;
+}
