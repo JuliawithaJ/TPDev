@@ -1,19 +1,9 @@
-.header-menu{
+.header-menu, .navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.menu ul, .picto ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
 
-.menu ul li, .picto ul li{
-    padding: 10px 25px;
-    font-family: 'Open Sans', sans-serif;
-}
 .header{
     height: 100vh;
     background-image: url('https://res.cloudinary.com/dsd5xgbdi/image/upload/v1571040439/pinguin2_m8b7ml.jpg');
